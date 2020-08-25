@@ -1,0 +1,125 @@
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-image: url(src/image/batik.png);
+   text-align: justify;
+}
+
+.cetakmiring{
+            font-size: 20px;
+            padding: 60px;
+            background-color: #FFC000;
+            text-align: center;
+            color: white
+}
+.image{
+   width: 75%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}   
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 50px 20px 20px 20px;
+   border-color: orange;
+   margin-top: 20px;
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
+
+
+nav ul li a {
+    background: orange;
+    padding: 2px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
+    border-radius: 10px;
+}
+nav ul li a:hover {
+	background: #FFF;
+}
+nav ul li {
+    display: inline;
+    margin: 10px;
+    border-right: 2px solid black;
+    list-style-type: none;
+
+}
+.navigasi {
+    background-color: #6c6c6c;  
+    padding: 5px;
+    position: sticky;
+    top: 0;
+  
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+aside {
+	float: right;
+	width: 25%;
+    padding-left: 20px
+}
+article {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+article h2 {
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+footer p {
+	padding: 0;
+}
+
+.tulis {
+    text-align: center;
+}
+
+aside > div {
+	margin: 10px auto;
+	background: #AEC6CF;
+	min-height: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+	body > #sidebar {
+        width: 100%;
+		padding: 0;
+	}
+}
+* {
+    box-sizing: border-box;
+}
+
+}
+.profile card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 50px 20px 20px 20px;
+   margin-top: 20px;
+
+}
+footer {
+   padding: 10px;
+   color: white;
+   background-color: #6c6c6c;
+   text-align: center;
+   font-weight: bold;
+}
